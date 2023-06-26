@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const path = require('path');
 
 const app = express();
-const port = 3000; // Change the port number if needed
+const port = process.env.PORT || 3000;// Change the port number if needed
 const mongoose = require('mongoose');
 
 const cookieParser = require('cookie-parser')
