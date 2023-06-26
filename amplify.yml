@@ -1,0 +1,12 @@
+version: 1
+frontend:
+  phases:
+    # Build phase configuration
+    build:
+      commands:
+        - npm install # Use `npm ci` if you have a package-lock.json, otherwise use `npm install`
+        - npm run build # Add your build command here
+
+
+
+
