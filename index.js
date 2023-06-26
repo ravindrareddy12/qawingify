@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 const port = 3000; // Change the port number if needed
 const mongoose = require('mongoose');
-const db = require('./config/db')
+
 const cookieParser = require('cookie-parser')
 const { urlencoded } = require('body-parser')
 // Middleware for parsing request bodies
