@@ -1,0 +1,50 @@
+<style>
+    /* Internal CSS styles */
+    h1 {
+      color: blue;
+      font-size: 24px;
+      text-align: center;
+    }
+    
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 20px;
+    }
+    
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+    
+    .submit {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .submit:hover {
+      background-color: darkblue;
+    }
+  </style>  
+
+<h1>user Login</h1>
+<div class="container">
+    <form action="/home" method="post">
+        <input type="text" name="username"  placeholder="enter your username" required>
+        <input type="password" name="password" placeholder="enter your password" required>
+        <input type="submit" class="submit">
+    </form>
+ </div>
+ 
