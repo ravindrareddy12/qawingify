@@ -4,8 +4,8 @@
 - **cypress/**
   - downloads/
   - e2e/
-    - login.cy.js
-    - home.cy.js
+    - login.cy.js  // to testing Login page
+    - home.cy.js   //to testing Home Page
   - fixtures/
   - support/
     - e2e.js
